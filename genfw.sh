@@ -1,6 +1,6 @@
 #!/bin/bash
 
-basedir="/home/derp/genkde/kf6"
+basedir="$HOME/genkde/kf6"
 version=6.0.0
 
 cd "$basedir" || exit
