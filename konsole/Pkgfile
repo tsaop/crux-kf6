@@ -1,0 +1,21 @@
+# Description: Terminal emulator by KDE
+# URL: https://invent.kde.org/utilities/konsole
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: icu knewstuff knotifyconfig kparts kpty ktextwidgets
+
+name=konsole
+version=24.02.0
+source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
+release=1
+
+build() {
+        cd $name-$version
+        cmake -Bbuild \
+                -DCMAKE_INSTALL_PREFIX=/usr \
+                -DCMAKE_INSTALL_LIBDIR=lib
+
+        cmake --build build
+        DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/{doc,locale}
+}

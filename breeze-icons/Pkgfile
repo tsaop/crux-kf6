@@ -1,0 +1,19 @@
+# Description: Breeze icon theme.
+# URL: https://invent.kde.org/frameworks/breeze-icons
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  extra-cmake-modules qt6-base
+
+name=breeze-icons
+version=6.0.0
+release=1
+source=(https://download.kde.org/stable/frameworks/${version::3}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}

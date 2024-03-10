@@ -1,0 +1,18 @@
+# Description: The Oxygen Sound Theme
+# URL: https://invent.kde.org/plasma/oxygen-sounds
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  extra-cmake-modules qt6-base
+
+name=oxygen-sounds
+version=6.0.1
+release=1
+source=(https://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}

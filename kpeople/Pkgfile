@@ -1,0 +1,23 @@
+# Description: A library that provides access to all contacts and the people who hold them
+# URL: https://invent.kde.org/frameworks/kpeople
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: kcontacts kitemviews kwidgetsaddons
+
+name=kpeople
+version=6.0.0
+release=1
+source=(https://download.kde.org/stable/frameworks/${version::3}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_TESTING=OFF \
+		-DENABLE_EXAMPLES=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/locale
+}

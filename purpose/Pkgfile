@@ -1,0 +1,25 @@
+# Description: Framework for providing abstractions to get the developerFramework for providing abstractions to get the developer@DESC@#39;s purposes fulfilled.#39;s purposes fulfilled.
+# URL: https://invent.kde.org/frameworks/purpose
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: kio kirigami
+
+#TODO: enable kaccounts integration once the required forks have landed
+
+name=purpose
+version=6.0.0
+release=1
+source=(https://download.kde.org/stable/frameworks/${version::3}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_INSTALL_LIBEXECDIR=lib \
+		-DBUILD_TESTING=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/locale
+}

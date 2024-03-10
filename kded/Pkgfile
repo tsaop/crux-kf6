@@ -1,0 +1,25 @@
+# Description: KDE Daemon
+# URL: https://invent.kde.org/frameworks/kded
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: kcrash kdbusaddons kservice
+
+name=kded
+version=6.0.0
+release=1
+source=(https://download.kde.org/stable/frameworks/${version::3}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_TESTING=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/lib/systemd
+	( cd $PKG/usr/share/man
+          find . ! -path . -type d | grep -v "man[0-9]" | xargs rm -rf
+        )
+}

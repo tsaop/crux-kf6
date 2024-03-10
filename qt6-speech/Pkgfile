@@ -1,0 +1,21 @@
+# Description: QT text-to-speech module
+# URL: https://www.qt.io/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: qt6-multimedia
+
+name=qt6-speech
+version=6.6.2
+release=1
+source=(https://download.qt.io/official_releases/qt/${version%.*}/$version/submodules/qtspeech-everywhere-src-$version.tar.xz)
+
+build() {
+  prt-get isinst ninja && PKGMK_QT6+=' -G Ninja'
+  prt-get isinst ccache && PKGMK_QT6+=' -D QT_USE_CCACHE=ON' && PATH="$(echo ${PATH} | awk -v RS=: -v ORS=: '/ccache/ {next} {print}' | sed 's/:*$//')"
+
+  cmake -S qtspeech-everywhere-src-$version -B build $PKGMK_QT6 \
+    -D CMAKE_BUILD_TYPE=Release \
+    -D CMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+    -D CMAKE_C_FLAGS_RELEASE="$CFLAGS"
+  cmake --build build
+  DESTDIR=$PKG cmake --install build
+}

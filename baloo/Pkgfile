@@ -1,0 +1,24 @@
+# Description: Baloo is a framework for searching and managing metadata.
+# URL: https://invent.kde.org/frameworks/baloo
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: kfilemetadata kidletime kio lmdb
+
+name=baloo
+version=6.0.0
+release=1
+source=(https://download.kde.org/stable/frameworks/${version::3}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_INSTALL_LIBEXECDIR=lib \
+		-DBUILD_TESTING=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/lib/systemd \
+		$PKG/usr/share/locale
+}

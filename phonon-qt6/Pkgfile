@@ -1,0 +1,23 @@
+# Description: Multi-platform sound framework for application developers
+# URL: https://invent.kde.org/libraries/phonon
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: extra-cmake-modules qt6-base qt6-5compat qt6-tools pulseaudio
+
+name=phonon-qt6
+version=4.12.0
+release=1
+source=(https://download.kde.org/stable/${name/-qt6/}/$version/${name/-qt6/}-$version.tar.xz)
+
+build() {
+	cd ${name/-qt6}-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DPHONON_BUILD_QT6=ON \
+		-DPHONON_BUILD_QT5=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/locale
+}

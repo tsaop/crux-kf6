@@ -1,0 +1,24 @@
+# Description: Qt based Color Picker with popup menu
+# URL: https://github.com/ksnip/kColorPicker 
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: cmake dbus double-conversion fontconfig freetype glib harfbuzz libb2 libglvnd libpng libxkbcommon qt6-base xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp
+
+name=kcolorpicker-qt6
+version=0.3.1
+release=1
+source=(https://github.com/ksnip/kColorPicker/archive/v${version}/${name/-qt6/}-$version.tar.gz)
+
+build() {
+	cd kColorPicker-$version
+
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_TESTS=OFF \
+		-DBUILD_EXAMPLE=OFF \
+		-DBUILD_WITH_QT6=ON \
+		-DBUILD_SHARED_LIBS=ON
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}

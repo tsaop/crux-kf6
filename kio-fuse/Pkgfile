@@ -1,0 +1,25 @@
+# Description: FUSE Interface for KIO
+# URL: https://invent.kde.org/system/kio-fuse
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: kcoreaddons kio
+
+name=kio-fuse
+version=5.1.0
+release=1
+source=(https://download.kde.org/stable/$name/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_INSTALL_LIBEXECDIR=lib \
+		-DBUILD_TESTING=OFF \
+		-DQT_MAJOR_VERSION=6
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/lib/{tmpfiles.d,systemd}
+}

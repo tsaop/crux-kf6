@@ -1,0 +1,24 @@
+# Description: Modern text editor built on the KDE Frameworks and Qt
+# URL: https://invent.kde.org/utilities/kate
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: attica brotli dbus double-conversion editorconfig-core-c fontconfig freetype glib harfbuzz karchive kauth kbookmarks kcodecs kcolorscheme kcompletion kconfig kconfigwidgets kcoreaddons kcrash kdbusaddons kglobalaccel kguiaddons ki18n kiconthemes kio kitemviews kjobwidgets knewstuff knotifications kpackage kparts kservice ktexteditor ktextwidgets kuserfeedback kwallet kwidgetsaddons kwindowsystem kxmlgui libb2 libcanberra libglvnd libogg libpng libvorbis libxkbcommon qt6-5compat qt6-base qt6-declarative qt6-multimedia qt6-speech qt6-svg qt6-wayland solid sonnet syndication syntax-highlighting wayland xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxfixes xorg-xcb-util-keysyms
+
+name=kate
+version=24.02.0
+source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
+release=1
+
+build() {
+        cd $name-$version
+        cmake -Bbuild \
+                -DCMAKE_INSTALL_PREFIX=/usr \
+                -DCMAKE_INSTALL_LIBDIR=lib
+
+        cmake --build build
+        DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/{doc,locale}
+       ( cd $PKG/usr/share/man
+          find . ! -path . -type d | grep -v "man[0-9]" | xargs rm -rf
+        )
+}

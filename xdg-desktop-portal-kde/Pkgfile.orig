@@ -1,0 +1,23 @@
+# Description: A backend implementation for xdg-desktop-portal that is using Qt/KDE
+# URL: https://invent.kde.org/plasma/xdg-desktop-portal-kde
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: brotli cups dbus double-conversion fontconfig freetype glib harfbuzz karchive kauth kbookmarks kcodecs kcolorscheme kcompletion kconfig kconfigwidgets kcoreaddons kcrash kglobalaccel kguiaddons ki18n kiconthemes kio kio-fuse kirigami kitemviews kjobwidgets knotifications kservice kstatusnotifieritem kwayland kwidgetsaddons kwindowsystem libb2 libcanberra libglvnd libogg libpng libvorbis libxkbcommon qt6-5compat qt6-base qt6-declarative qt6-svg qt6-wayland solid wayland xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxfixes xorg-xcb-util-keysyms
+
+name=xdg-desktop-portal-kde
+version=6.0.1
+release=1
+source=(https://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_INSTALL_LIBEXECDIR=lib
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/locale \
+		$PKG/usr/lib/systemd
+}

@@ -1,0 +1,53 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/KF6/
+drwxr-xr-x	root/root	usr/include/KF6/Prison/
+drwxr-xr-x	root/root	usr/include/KF6/Prison/Prison/
+-rw-r--r--	root/root	usr/include/KF6/Prison/Prison/Barcode
+-rw-r--r--	root/root	usr/include/KF6/Prison/Prison/MeCard
+-rw-r--r--	root/root	usr/include/KF6/Prison/Prison/Prison
+-rw-r--r--	root/root	usr/include/KF6/Prison/Prison/barcode.h
+-rw-r--r--	root/root	usr/include/KF6/Prison/Prison/mecard.h
+-rw-r--r--	root/root	usr/include/KF6/Prison/Prison/prison.h
+-rw-r--r--	root/root	usr/include/KF6/Prison/Prison/prison_export.h
+-rw-r--r--	root/root	usr/include/KF6/Prison/prison_version.h
+drwxr-xr-x	root/root	usr/include/KF6/PrisonScanner/
+drwxr-xr-x	root/root	usr/include/KF6/PrisonScanner/Prison/
+-rw-r--r--	root/root	usr/include/KF6/PrisonScanner/Prison/Format
+-rw-r--r--	root/root	usr/include/KF6/PrisonScanner/Prison/ScanResult
+-rw-r--r--	root/root	usr/include/KF6/PrisonScanner/Prison/VideoScanner
+-rw-r--r--	root/root	usr/include/KF6/PrisonScanner/Prison/format.h
+-rw-r--r--	root/root	usr/include/KF6/PrisonScanner/Prison/prisonscanner_export.h
+-rw-r--r--	root/root	usr/include/KF6/PrisonScanner/Prison/scanresult.h
+-rw-r--r--	root/root	usr/include/KF6/PrisonScanner/Prison/videoscanner.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KF6Prison/
+-rw-r--r--	root/root	usr/lib/cmake/KF6Prison/KF6PrisonConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF6Prison/KF6PrisonConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF6Prison/KF6PrisonTargets-noconfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF6Prison/KF6PrisonTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKF6Prison.so -> libKF6Prison.so.6
+lrwxrwxrwx	root/root	usr/lib/libKF6Prison.so.6 -> libKF6Prison.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/libKF6Prison.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/libKF6PrisonScanner.so -> libKF6PrisonScanner.so.6
+lrwxrwxrwx	root/root	usr/lib/libKF6PrisonScanner.so.6 -> libKF6PrisonScanner.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/libKF6PrisonScanner.so.6.0.0
+drwxr-xr-x	root/root	usr/lib/qt6/
+drwxr-xr-x	root/root	usr/lib/qt6/qml/
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/prison/
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/prison/kde-qmlmodule.version
+-rwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/prison/libprisonquickplugin.so
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/prison/prisonquickplugin.qmltypes
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/prison/qmldir
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/prison/scanner/
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/prison/scanner/kde-qmlmodule.version
+-rwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/prison/scanner/libprisonscannerquickplugin.so
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/prison/scanner/prisonscannerquickplugin.qmltypes
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/prison/scanner/qmldir
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/qlogging-categories6/
+-rw-r--r--	root/root	usr/share/qlogging-categories6/prison.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories6/prison.renamecategories

@@ -1,0 +1,23 @@
+# Description: System service to manage user's activities, track the usage patterns etc.
+# URL: https://invent.kde.org/plasma/kactivitymanagerd
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: boost kio kxmlgui
+
+name=kactivitymanagerd
+version=6.0.1
+release=1
+source=(https://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_INSTALL_LIBEXECDIR=lib
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/lib/systemd \
+		$PKG/usr/share/locale
+}

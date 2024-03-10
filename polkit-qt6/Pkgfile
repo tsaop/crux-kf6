@@ -1,0 +1,21 @@
+# Description: Qt wrapper around Polkit-1 client libraries
+# URL: https://invent.kde.org/libraries/polkit-qt-1
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: qt6-base polkit
+
+name=polkit-qt6
+version=0.200.0
+release=1
+source=(https://download.kde.org/stable/${name/6/}-1/${name/6/}-1-$version.tar.xz)
+
+build() {
+	cd ${name/6/}-1-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_EXAMPLES=OFF \
+		-DQT_MAJOR_VERSION=6
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}

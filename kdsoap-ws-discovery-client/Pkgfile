@@ -1,0 +1,24 @@
+# Description: Library for finding WS-Discovery devices in the network using Qt and KDSoap
+# URL: https://invent.kde.org/libraries/kdsoap-ws-discovery-client
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: extra-cmake-modules qt6-declarative kirigami ki18n kdsoap
+
+name=kdsoap-ws-discovery-client
+version=0.4.0
+release=1
+source=(https://download.kde.org/stable/$name/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_TESTING=OFF \
+		-DQT_MAJOR_VERSION=6
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/locale
+}

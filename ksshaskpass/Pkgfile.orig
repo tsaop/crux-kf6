@@ -1,0 +1,21 @@
+# Description: ssh-add helper that uses KWallet and KPasswordDialog
+# URL: https://invent.kde.org/plasma/ksshaskpass
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: dbus double-conversion fontconfig freetype glib harfbuzz kconfig kcoreaddons ki18n kwallet kwidgetsaddons libb2 libglvnd libpng libxkbcommon qt6-base xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp
+
+name=ksshaskpass
+version=6.0.1
+release=1
+source=(https://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/locale
+}

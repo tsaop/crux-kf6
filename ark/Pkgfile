@@ -1,0 +1,25 @@
+# Description: File archiver by KDE
+# URL: https://invent.kde.org/utilities/ark
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: kconfig kcrash kdbusaddons kdoctools kfilemetadata ki18n kio kservice kparts kpty kwidgetsaddons kwindowsystem kiconthemes libarchive libzip 
+
+name=ark
+version=24.02.0
+source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
+release=1
+
+build() {
+        cd $name-$version
+        cmake -Bbuild \
+                -DCMAKE_INSTALL_PREFIX=/usr \
+                -DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_TESTING=OFF
+
+        cmake --build build
+        DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/{locale,doc}
+        ( cd $PKG/usr/share/man
+          find . ! -path . -type d | grep -v "man[0-9]" | xargs rm -rf
+        )
+}

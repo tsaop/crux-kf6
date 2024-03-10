@@ -1,0 +1,19 @@
+# Description: Listen to traditional system notifications
+# URL: https://invent.kde.org/plasma/kwrited
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: dbus double-conversion fontconfig freetype glib harfbuzz kconfig kcoreaddons kdbusaddons ki18n knotifications kpty libb2 libcanberra libglvnd libogg libpng libvorbis libxkbcommon qt6-base xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp
+
+name=kwrited
+version=6.0.1
+release=1
+source=(https://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}

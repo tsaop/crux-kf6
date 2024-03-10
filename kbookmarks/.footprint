@@ -1,0 +1,44 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/KF6/
+drwxr-xr-x	root/root	usr/include/KF6/KBookmarks/
+-rw-r--r--	root/root	usr/include/KF6/KBookmarks/KBookmark
+-rw-r--r--	root/root	usr/include/KF6/KBookmarks/KBookmarkAction
+-rw-r--r--	root/root	usr/include/KF6/KBookmarks/KBookmarkActionInterface
+-rw-r--r--	root/root	usr/include/KF6/KBookmarks/KBookmarkManager
+-rw-r--r--	root/root	usr/include/KF6/KBookmarks/KBookmarkOwner
+-rw-r--r--	root/root	usr/include/KF6/KBookmarks/kbookmark.h
+-rw-r--r--	root/root	usr/include/KF6/KBookmarks/kbookmarkaction.h
+-rw-r--r--	root/root	usr/include/KF6/KBookmarks/kbookmarkactioninterface.h
+-rw-r--r--	root/root	usr/include/KF6/KBookmarks/kbookmarkmanager.h
+-rw-r--r--	root/root	usr/include/KF6/KBookmarks/kbookmarkowner.h
+-rw-r--r--	root/root	usr/include/KF6/KBookmarks/kbookmarks_export.h
+-rw-r--r--	root/root	usr/include/KF6/KBookmarks/kbookmarks_version.h
+drwxr-xr-x	root/root	usr/include/KF6/KBookmarksWidgets/
+-rw-r--r--	root/root	usr/include/KF6/KBookmarksWidgets/KBookmarkActionMenu
+-rw-r--r--	root/root	usr/include/KF6/KBookmarksWidgets/KBookmarkContextMenu
+-rw-r--r--	root/root	usr/include/KF6/KBookmarksWidgets/KBookmarkDialog
+-rw-r--r--	root/root	usr/include/KF6/KBookmarksWidgets/KBookmarkMenu
+-rw-r--r--	root/root	usr/include/KF6/KBookmarksWidgets/kbookmarkactionmenu.h
+-rw-r--r--	root/root	usr/include/KF6/KBookmarksWidgets/kbookmarkcontextmenu.h
+-rw-r--r--	root/root	usr/include/KF6/KBookmarksWidgets/kbookmarkdialog.h
+-rw-r--r--	root/root	usr/include/KF6/KBookmarksWidgets/kbookmarkmenu.h
+-rw-r--r--	root/root	usr/include/KF6/KBookmarksWidgets/kbookmarkswidgets_export.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KF6Bookmarks/
+-rw-r--r--	root/root	usr/lib/cmake/KF6Bookmarks/KF6BookmarksConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF6Bookmarks/KF6BookmarksConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF6Bookmarks/KF6BookmarksTargets-noconfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF6Bookmarks/KF6BookmarksTargets.cmake
+lrwxrwxrwx	root/root	usr/lib/libKF6Bookmarks.so -> libKF6Bookmarks.so.6
+lrwxrwxrwx	root/root	usr/lib/libKF6Bookmarks.so.6 -> libKF6Bookmarks.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/libKF6Bookmarks.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/libKF6BookmarksWidgets.so -> libKF6BookmarksWidgets.so.6
+lrwxrwxrwx	root/root	usr/lib/libKF6BookmarksWidgets.so.6 -> libKF6BookmarksWidgets.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/libKF6BookmarksWidgets.so.6.0.0
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/qlogging-categories6/
+-rw-r--r--	root/root	usr/share/qlogging-categories6/kbookmarks.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories6/kbookmarks.renamecategories
+-rw-r--r--	root/root	usr/share/qlogging-categories6/kbookmarkswidgets.categories

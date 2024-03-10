@@ -1,0 +1,24 @@
+# Description: Tool for annotating images
+# URL: https://github.com/ksnip/kImageAnnotator
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: dbus double-conversion fontconfig freetype glib harfbuzz kcolorpicker-qt6 libb2 libglvnd libpng libxkbcommon qt6-base qt6-svg qt6-tools xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp
+
+name=kimageannotator-qt6
+version=0.7.1
+release=1
+source=(https://github.com/ksnip/kImageAnnotator/archive/v${version}/${name/-qt6/}-$version.tar.gz)
+
+build() {
+	cd kImageAnnotator-$version
+
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=ON \
+		-DBUILD_WITH_QT6=ON \
+		-DBUILD_TESTS=OFF \
+		-DBUILD_EXAMPLE=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}

@@ -1,0 +1,25 @@
+# Description: Ultra-fast, ultra-compact key-value embedded data store
+# URL: http://symas.com/mdb/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: glibc
+
+name=lmdb
+version=0.9.31
+release=1
+source=(https://git.openldap.org/openldap/openldap/-/archive/${name^^}_${version}/openldap-${name^^}_${version}.tar.bz2)
+
+build() {
+	cd openldap-${name^^}_$version/libraries/liblmdb
+	make PREFIX=/usr
+
+	sed -i 's|prefix\t= /usr/local|prefix\t= /usr|' Makefile
+	sed -i 's|mandir = $(prefix)/man|mandir = $(prefix)/share/man|' Makefile
+
+#	install -dm644 $PKG/usr/bin
+#	install -dm644 $PKG/usr/lib
+#	install -dm644 $PKG/usr/include
+#	install -dm644 $PKG/usr/share/man/man1
+
+	make DESTDIR=$PKG install
+}
+

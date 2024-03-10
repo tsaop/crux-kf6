@@ -1,0 +1,1002 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/oxygen-demo6
+-rwxr-xr-x	root/root	usr/bin/oxygen-settings6
+drwxr-xr-x	root/root	usr/lib/
+lrwxrwxrwx	root/root	usr/lib/liboxygenstyle6.so.6 -> liboxygenstyle6.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/liboxygenstyle6.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/liboxygenstyleconfig6.so.6 -> liboxygenstyleconfig6.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/liboxygenstyleconfig6.so.6.0.0
+drwxr-xr-x	root/root	usr/lib/qt6/
+drwxr-xr-x	root/root	usr/lib/qt6/plugins/
+drwxr-xr-x	root/root	usr/lib/qt6/plugins/kstyle_config/
+-rwxr-xr-x	root/root	usr/lib/qt6/plugins/kstyle_config/kstyle_oxygen_config.so
+drwxr-xr-x	root/root	usr/lib/qt6/plugins/org.kde.kdecoration2.kcm/
+-rwxr-xr-x	root/root	usr/lib/qt6/plugins/org.kde.kdecoration2.kcm/kcm_oxygendecoration.so
+drwxr-xr-x	root/root	usr/lib/qt6/plugins/org.kde.kdecoration2/
+-rwxr-xr-x	root/root	usr/lib/qt6/plugins/org.kde.kdecoration2/org.kde.oxygen.so
+drwxr-xr-x	root/root	usr/lib/qt6/plugins/styles/
+-rwxr-xr-x	root/root	usr/lib/qt6/plugins/styles/oxygen6.so
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/kcm_oxygendecoration.desktop
+drwxr-xr-x	root/root	usr/share/color-schemes/
+-rw-r--r--	root/root	usr/share/color-schemes/Oxygen.colors
+-rw-r--r--	root/root	usr/share/color-schemes/OxygenCold.colors
+drwxr-xr-x	root/root	usr/share/icons/
+drwxr-xr-x	root/root	usr/share/icons/KDE_Classic/
+drwxr-xr-x	root/root	usr/share/icons/KDE_Classic/cursors/
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/00000000000000020006000e7e9ffc3f -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/00008160000006810000408080010102 -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/08e8e1c95fe2fc01f976f1e063a24ccd -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/3ecb610c1bf2410f44200f48c40d3599 -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/4498f0e0c1937ffe01fd06f973665830 -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/5c6cd98b3f3ebcb1f9c7f1c204630408 -> help
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/9081237383d90e509aa00f00170e968f -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/9d800788f1b08800ae810202380a0822 -> pointing_hand
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/X_cursor
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/all-scroll -> fleur
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/bottom_left_corner
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/bottom_right_corner
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/bottom_side
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/center_ptr
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/closedhand
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/col-resize -> split_h
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/cross
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/crossed_circle -> forbidden
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/crosshair
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/d9ce0ab605698f320427677b458ad60b -> help
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/dnd-move -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/dnd-no-drop -> forbidden
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/dnd-none -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/e-resize -> size_hor
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/e29285e634086352946a0e7090d73106 -> pointing_hand
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/fcf21c00b30f7e3f83fe0dfd12e71cff -> closedhand
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/fleur
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/forbidden
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/half-busy
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/hand1
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/hand2
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/help
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/ibeam
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/left_ptr
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/left_ptr_watch -> half-busy
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/left_side
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/move -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/n-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/ne-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/nesw-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/not-allowed -> forbidden
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/nw-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/nwse-resize -> size_fdiag
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/openhand
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/pirate
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/pointer -> pointing_hand
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/pointing_hand
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/progress -> half-busy
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/question_arrow
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/right_ptr
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/right_side
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/row-resize -> split_v
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/s-resize -> size_ver
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/sb_h_double_arrow
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/sb_v_double_arrow
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/se-resize -> size_fdiag
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/size_all
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/size_bdiag
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/size_fdiag
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/size_hor
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/size_ver
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/split_h
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/split_v
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/sw-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/text -> xterm
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/top_left_corner
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/top_right_corner
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/top_side
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/v_double_arrow -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/w-resize -> size_hor
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/wait
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/watch
+lrwxrwxrwx	root/root	usr/share/icons/KDE_Classic/cursors/whats_this -> help
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/xcursorconfig
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/cursors/xterm
+-rw-r--r--	root/root	usr/share/icons/KDE_Classic/index.theme
+drwxr-xr-x	root/root	usr/share/icons/Oxygen_Black/
+drwxr-xr-x	root/root	usr/share/icons/Oxygen_Black/cursors/
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/00000000000000020006000e7e9ffc3f -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/00008160000006810000408080010102 -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/03b6e0fcb3499374a867c041f52298f0 -> circle
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/08e8e1c95fe2fc01f976f1e063a24ccd -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/1081e37283d90000800003c07f3ef6bf -> copy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/3085a0e285430894940527032f8b26df -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/3ecb610c1bf2410f44200f48c40d3599 -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/4498f0e0c1937ffe01fd06f973665830 -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/5c6cd98b3f3ebcb1f9c7f1c204630408 -> help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/6407b0e94181790501fd1e167b474872 -> copy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/640fb0e74195791501fd1ed57b41487f -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/9081237383d90e509aa00f00170e968f -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/9d800788f1b08800ae810202380a0822 -> pointing_hand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/X_cursor
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/a2a266d0498c3104214a47bd64ab0fc8 -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/alias -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/all-scroll -> fleur
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/b66166c04f8c3109214a4fbd64a50fc8 -> copy
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/circle
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/col-resize -> split_h
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/color-picker
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/copy
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/cross
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/crossed_circle -> circle
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/d9ce0ab605698f320427677b458ad60b -> help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/dnd-copy -> copy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/dnd-link -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/dnd-move -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/dnd-no-drop -> forbidden
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/dnd-none -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/e-resize -> size_hor
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/e29285e634086352946a0e7090d73106 -> pointing_hand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/fcf21c00b30f7e3f83fe0dfd12e71cff -> closedhand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/fleur
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/forbidden
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/hand1 -> pointing_hand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/hand2 -> pointing_hand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/ibeam -> xterm
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/left_ptr
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/left_ptr_watch -> half-busy
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/move -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/n-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/ne-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/nesw-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/not-allowed -> forbidden
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/nw-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/nwse-resize -> size_fdiag
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/openhand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/pencil
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/pirate
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/plus
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/pointer -> pointing_hand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/pointing_hand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/progress -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/question_arrow -> help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/row-resize -> split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/s-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/sb_h_double_arrow -> size_hor
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/sb_v_double_arrow -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/se-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/size_all -> fleur
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/size_bdiag
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/size_fdiag
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/size_hor
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/size_ver
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/split_h
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/sw-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/text -> xterm
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/v_double_arrow -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/w-resize -> size_hor
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/wait
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/watch -> wait
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Black/cursors/whats_this -> help
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/cursors/xterm
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Black/index.theme
+drwxr-xr-x	root/root	usr/share/icons/Oxygen_Blue/
+drwxr-xr-x	root/root	usr/share/icons/Oxygen_Blue/cursors/
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/00000000000000020006000e7e9ffc3f -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/00008160000006810000408080010102 -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/03b6e0fcb3499374a867c041f52298f0 -> circle
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/08e8e1c95fe2fc01f976f1e063a24ccd -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/1081e37283d90000800003c07f3ef6bf -> copy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/3085a0e285430894940527032f8b26df -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/3ecb610c1bf2410f44200f48c40d3599 -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/4498f0e0c1937ffe01fd06f973665830 -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/5c6cd98b3f3ebcb1f9c7f1c204630408 -> help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/6407b0e94181790501fd1e167b474872 -> copy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/640fb0e74195791501fd1ed57b41487f -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/9081237383d90e509aa00f00170e968f -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/9d800788f1b08800ae810202380a0822 -> pointing_hand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/X_cursor
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/a2a266d0498c3104214a47bd64ab0fc8 -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/alias -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/all-scroll -> fleur
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/b66166c04f8c3109214a4fbd64a50fc8 -> copy
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/circle
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/col-resize -> split_h
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/color-picker
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/copy
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/cross
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/crossed_circle -> circle
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/d9ce0ab605698f320427677b458ad60b -> help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/dnd-copy -> copy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/dnd-link -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/dnd-move -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/dnd-no-drop -> forbidden
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/dnd-none -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/e-resize -> size_hor
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/e29285e634086352946a0e7090d73106 -> pointing_hand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/fcf21c00b30f7e3f83fe0dfd12e71cff -> closedhand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/fleur
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/forbidden
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/hand1 -> pointing_hand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/hand2 -> pointing_hand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/ibeam -> xterm
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/left_ptr
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/left_ptr_watch -> half-busy
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/move -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/n-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/ne-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/nesw-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/not-allowed -> forbidden
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/nw-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/nwse-resize -> size_fdiag
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/openhand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/pencil
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/pirate
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/plus
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/pointer -> pointing_hand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/pointing_hand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/progress -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/question_arrow -> help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/row-resize -> split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/s-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/sb_h_double_arrow -> size_hor
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/sb_v_double_arrow -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/se-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/size_all -> fleur
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/size_bdiag
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/size_fdiag
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/size_hor
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/size_ver
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/split_h
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/sw-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/text -> xterm
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/v_double_arrow -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/w-resize -> size_hor
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/wait
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/watch -> wait
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Blue/cursors/whats_this -> help
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/cursors/xterm
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Blue/index.theme
+drwxr-xr-x	root/root	usr/share/icons/Oxygen_White/
+drwxr-xr-x	root/root	usr/share/icons/Oxygen_White/cursors/
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/00000000000000020006000e7e9ffc3f -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/00008160000006810000408080010102 -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/03b6e0fcb3499374a867c041f52298f0 -> circle
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/08e8e1c95fe2fc01f976f1e063a24ccd -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/1081e37283d90000800003c07f3ef6bf -> copy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/3085a0e285430894940527032f8b26df -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/3ecb610c1bf2410f44200f48c40d3599 -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/4498f0e0c1937ffe01fd06f973665830 -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/5c6cd98b3f3ebcb1f9c7f1c204630408 -> help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/6407b0e94181790501fd1e167b474872 -> copy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/640fb0e74195791501fd1ed57b41487f -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/9081237383d90e509aa00f00170e968f -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/9d800788f1b08800ae810202380a0822 -> pointing_hand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/X_cursor
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/a2a266d0498c3104214a47bd64ab0fc8 -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/alias -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/all-scroll -> fleur
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/b66166c04f8c3109214a4fbd64a50fc8 -> copy
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/circle
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/col-resize -> split_h
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/color-picker
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/copy
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/cross
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/crossed_circle -> circle
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/d9ce0ab605698f320427677b458ad60b -> help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/dnd-copy -> copy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/dnd-link -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/dnd-move -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/dnd-no-drop -> forbidden
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/dnd-none -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/e-resize -> size_hor
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/e29285e634086352946a0e7090d73106 -> pointing_hand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/fcf21c00b30f7e3f83fe0dfd12e71cff -> closedhand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/fleur
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/forbidden
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/hand1 -> pointing_hand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/hand2 -> pointing_hand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/ibeam -> xterm
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/left_ptr
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/left_ptr_watch -> half-busy
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/move -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/n-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/ne-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/nesw-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/not-allowed -> forbidden
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/nw-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/nwse-resize -> size_fdiag
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/openhand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/pencil
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/pirate
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/plus
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/pointer -> pointing_hand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/pointing_hand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/progress -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/question_arrow -> help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/row-resize -> split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/s-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/sb_h_double_arrow -> size_hor
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/sb_v_double_arrow -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/se-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/size_all -> fleur
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/size_bdiag
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/size_fdiag
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/size_hor
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/size_ver
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/split_h
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/sw-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/text -> xterm
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/v_double_arrow -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/w-resize -> size_hor
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/wait
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/watch -> wait
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_White/cursors/whats_this -> help
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/cursors/xterm
+-rw-r--r--	root/root	usr/share/icons/Oxygen_White/index.theme
+drwxr-xr-x	root/root	usr/share/icons/Oxygen_Yellow/
+drwxr-xr-x	root/root	usr/share/icons/Oxygen_Yellow/cursors/
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/00000000000000020006000e7e9ffc3f -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/00008160000006810000408080010102 -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/03b6e0fcb3499374a867c041f52298f0 -> circle
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/08e8e1c95fe2fc01f976f1e063a24ccd -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/1081e37283d90000800003c07f3ef6bf -> copy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/3085a0e285430894940527032f8b26df -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/3ecb610c1bf2410f44200f48c40d3599 -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/4498f0e0c1937ffe01fd06f973665830 -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/5c6cd98b3f3ebcb1f9c7f1c204630408 -> help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/6407b0e94181790501fd1e167b474872 -> copy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/640fb0e74195791501fd1ed57b41487f -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/9081237383d90e509aa00f00170e968f -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/9d800788f1b08800ae810202380a0822 -> pointing_hand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/X_cursor
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/a2a266d0498c3104214a47bd64ab0fc8 -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/alias -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/all-scroll -> fleur
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/b66166c04f8c3109214a4fbd64a50fc8 -> copy
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/circle
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/col-resize -> split_h
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/color-picker
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/copy
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/cross
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/crossed_circle -> circle
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/d9ce0ab605698f320427677b458ad60b -> help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/dnd-copy -> copy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/dnd-link -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/dnd-move -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/dnd-no-drop -> forbidden
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/dnd-none -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/e-resize -> size_hor
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/e29285e634086352946a0e7090d73106 -> pointing_hand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/fcf21c00b30f7e3f83fe0dfd12e71cff -> closedhand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/fleur
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/forbidden
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/hand1 -> pointing_hand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/hand2 -> pointing_hand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/ibeam -> xterm
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/left_ptr
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/left_ptr_watch -> half-busy
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/move -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/n-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/ne-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/nesw-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/not-allowed -> forbidden
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/nw-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/nwse-resize -> size_fdiag
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/openhand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/pencil
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/pirate
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/plus
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/pointer -> pointing_hand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/pointing_hand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/progress -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/question_arrow -> help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/row-resize -> split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/s-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/sb_h_double_arrow -> size_hor
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/sb_v_double_arrow -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/se-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/size_all -> fleur
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/size_bdiag
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/size_fdiag
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/size_hor
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/size_ver
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/split_h
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/sw-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/text -> xterm
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/v_double_arrow -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/w-resize -> size_hor
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/wait
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/watch -> wait
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Yellow/cursors/whats_this -> help
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/cursors/xterm
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Yellow/index.theme
+drwxr-xr-x	root/root	usr/share/icons/Oxygen_Zion/
+drwxr-xr-x	root/root	usr/share/icons/Oxygen_Zion/cursors/
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/00000000000000020006000e7e9ffc3f -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/00008160000006810000408080010102 -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/03b6e0fcb3499374a867c041f52298f0 -> circle
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/08e8e1c95fe2fc01f976f1e063a24ccd -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/1081e37283d90000800003c07f3ef6bf -> copy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/3085a0e285430894940527032f8b26df -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/3ecb610c1bf2410f44200f48c40d3599 -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/4498f0e0c1937ffe01fd06f973665830 -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/5c6cd98b3f3ebcb1f9c7f1c204630408 -> help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/6407b0e94181790501fd1e167b474872 -> copy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/640fb0e74195791501fd1ed57b41487f -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/9081237383d90e509aa00f00170e968f -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/9d800788f1b08800ae810202380a0822 -> pointing_hand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/X_cursor
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/a2a266d0498c3104214a47bd64ab0fc8 -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/alias -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/all-scroll -> fleur
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/b66166c04f8c3109214a4fbd64a50fc8 -> copy
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/circle
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/col-resize -> split_h
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/color-picker
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/copy
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/cross
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/crossed_circle -> circle
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/d9ce0ab605698f320427677b458ad60b -> help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/dnd-copy -> copy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/dnd-link -> link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/dnd-move -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/dnd-no-drop -> forbidden
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/dnd-none -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/e-resize -> size_hor
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/e29285e634086352946a0e7090d73106 -> pointing_hand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/fcf21c00b30f7e3f83fe0dfd12e71cff -> closedhand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/fleur
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/forbidden
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/hand1 -> pointing_hand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/hand2 -> pointing_hand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/ibeam -> xterm
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/left_ptr
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/left_ptr_watch -> half-busy
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/link
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/move -> closedhand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/n-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/ne-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/nesw-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/not-allowed -> forbidden
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/nw-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/nwse-resize -> size_fdiag
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/openhand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/pencil
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/pirate
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/plus
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/pointer -> pointing_hand
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/pointing_hand
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/progress -> half-busy
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/question_arrow -> help
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/row-resize -> split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/s-resize -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/sb_h_double_arrow -> size_hor
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/sb_v_double_arrow -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/se-resize -> size_fdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/size_all -> fleur
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/size_bdiag
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/size_fdiag
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/size_hor
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/size_ver
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/split_h
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/split_v
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/sw-resize -> size_bdiag
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/text -> xterm
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/v_double_arrow -> size_ver
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/w-resize -> size_hor
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/wait
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/watch -> wait
+lrwxrwxrwx	root/root	usr/share/icons/Oxygen_Zion/cursors/whats_this -> help
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/cursors/xterm
+-rw-r--r--	root/root	usr/share/icons/Oxygen_Zion/index.theme
+drwxr-xr-x	root/root	usr/share/icons/hicolor/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/256x256/
+drwxr-xr-x	root/root	usr/share/icons/hicolor/256x256/apps/
+-rw-r--r--	root/root	usr/share/icons/hicolor/256x256/apps/oxygen-settings.png
+drwxr-xr-x	root/root	usr/share/kstyle/
+drwxr-xr-x	root/root	usr/share/kstyle/themes/
+-rw-r--r--	root/root	usr/share/kstyle/themes/oxygen.themerc
+drwxr-xr-x	root/root	usr/share/locale/
+drwxr-xr-x	root/root	usr/share/locale/af/
+drwxr-xr-x	root/root	usr/share/locale/af/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/af/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/af/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/ar/
+drwxr-xr-x	root/root	usr/share/locale/ar/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ar/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/ar/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/ar/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/ar/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/ast/
+drwxr-xr-x	root/root	usr/share/locale/ast/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ast/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/ast/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/ast/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/ast/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/az/
+drwxr-xr-x	root/root	usr/share/locale/az/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/az/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/az/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/az/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/az/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/be/
+drwxr-xr-x	root/root	usr/share/locale/be/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/be/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/be/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/be@latin/
+drwxr-xr-x	root/root	usr/share/locale/be@latin/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/be@latin/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/be@latin/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/bg/
+drwxr-xr-x	root/root	usr/share/locale/bg/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/bn_IN/
+drwxr-xr-x	root/root	usr/share/locale/bn_IN/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/bn_IN/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/bn_IN/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/br/
+drwxr-xr-x	root/root	usr/share/locale/br/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/br/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/br/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/bs/
+drwxr-xr-x	root/root	usr/share/locale/bs/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/bs/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/bs/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/bs/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/bs/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/ca/
+drwxr-xr-x	root/root	usr/share/locale/ca/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ca/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/ca/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/ca/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/ca/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/ca@valencia/
+drwxr-xr-x	root/root	usr/share/locale/ca@valencia/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ca@valencia/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/ca@valencia/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/ca@valencia/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/ca@valencia/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/cs/
+drwxr-xr-x	root/root	usr/share/locale/cs/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/cs/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/cs/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/cs/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/cs/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/csb/
+drwxr-xr-x	root/root	usr/share/locale/csb/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/csb/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/csb/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/cy/
+drwxr-xr-x	root/root	usr/share/locale/cy/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/cy/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/cy/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/da/
+drwxr-xr-x	root/root	usr/share/locale/da/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/da/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/da/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/da/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/da/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/de/
+drwxr-xr-x	root/root	usr/share/locale/de/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/de/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/de/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/de/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/de/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/el/
+drwxr-xr-x	root/root	usr/share/locale/el/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/el/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/el/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/el/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/el/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/en_GB/
+drwxr-xr-x	root/root	usr/share/locale/en_GB/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/en_GB/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/en_GB/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/en_GB/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/en_GB/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/eo/
+drwxr-xr-x	root/root	usr/share/locale/eo/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/eo/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/eo/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/eo/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/eo/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/es/
+drwxr-xr-x	root/root	usr/share/locale/es/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/es/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/es/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/es/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/es/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/et/
+drwxr-xr-x	root/root	usr/share/locale/et/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/et/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/et/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/et/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/et/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/eu/
+drwxr-xr-x	root/root	usr/share/locale/eu/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/eu/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/eu/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/eu/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/eu/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/fa/
+drwxr-xr-x	root/root	usr/share/locale/fa/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/fa/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/fa/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/fi/
+drwxr-xr-x	root/root	usr/share/locale/fi/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/fi/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/fi/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/fi/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/fi/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/fr/
+drwxr-xr-x	root/root	usr/share/locale/fr/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/fr/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/fr/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/fr/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/fr/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/fy/
+drwxr-xr-x	root/root	usr/share/locale/fy/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/fy/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/fy/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/ga/
+drwxr-xr-x	root/root	usr/share/locale/ga/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ga/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/ga/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/ga/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/gl/
+drwxr-xr-x	root/root	usr/share/locale/gl/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/gl/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/gl/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/gl/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/gl/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/gu/
+drwxr-xr-x	root/root	usr/share/locale/gu/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/gu/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/gu/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/he/
+drwxr-xr-x	root/root	usr/share/locale/he/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/he/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/he/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/he/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/he/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/hi/
+drwxr-xr-x	root/root	usr/share/locale/hi/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/hi/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/hi/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/hne/
+drwxr-xr-x	root/root	usr/share/locale/hne/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/hne/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/hne/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/hr/
+drwxr-xr-x	root/root	usr/share/locale/hr/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/hr/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/hr/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/hsb/
+drwxr-xr-x	root/root	usr/share/locale/hsb/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/hsb/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/hsb/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/hu/
+drwxr-xr-x	root/root	usr/share/locale/hu/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/hu/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/hu/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/hu/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/hu/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/ia/
+drwxr-xr-x	root/root	usr/share/locale/ia/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ia/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/ia/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/ia/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/ia/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/id/
+drwxr-xr-x	root/root	usr/share/locale/id/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/id/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/id/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/id/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/id/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/is/
+drwxr-xr-x	root/root	usr/share/locale/is/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/is/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/is/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/it/
+drwxr-xr-x	root/root	usr/share/locale/it/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/it/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/it/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/it/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/it/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/ja/
+drwxr-xr-x	root/root	usr/share/locale/ja/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ja/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/ja/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/ja/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/ja/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/ka/
+drwxr-xr-x	root/root	usr/share/locale/ka/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ka/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/ka/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/ka/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/ka/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/kk/
+drwxr-xr-x	root/root	usr/share/locale/kk/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/kk/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/kk/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/kk/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/km/
+drwxr-xr-x	root/root	usr/share/locale/km/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/km/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/km/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/kn/
+drwxr-xr-x	root/root	usr/share/locale/kn/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/kn/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/kn/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/ko/
+drwxr-xr-x	root/root	usr/share/locale/ko/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ko/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/ko/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/ko/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/ko/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/ku/
+drwxr-xr-x	root/root	usr/share/locale/ku/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ku/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/ku/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/lb/
+drwxr-xr-x	root/root	usr/share/locale/lb/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/lb/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/lb/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/lt/
+drwxr-xr-x	root/root	usr/share/locale/lt/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/lt/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/lt/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/lt/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/lt/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/lv/
+drwxr-xr-x	root/root	usr/share/locale/lv/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/lv/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/lv/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/mai/
+drwxr-xr-x	root/root	usr/share/locale/mai/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/mai/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/mai/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/mk/
+drwxr-xr-x	root/root	usr/share/locale/mk/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/mk/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/mk/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/ml/
+drwxr-xr-x	root/root	usr/share/locale/ml/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ml/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/ml/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/ml/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/ml/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/mr/
+drwxr-xr-x	root/root	usr/share/locale/mr/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/mr/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/mr/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/mr/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/ms/
+drwxr-xr-x	root/root	usr/share/locale/ms/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ms/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/ms/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/nb/
+drwxr-xr-x	root/root	usr/share/locale/nb/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/nb/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/nb/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/nb/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/nb/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/nds/
+drwxr-xr-x	root/root	usr/share/locale/nds/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/nds/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/nds/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/nds/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/nds/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/ne/
+drwxr-xr-x	root/root	usr/share/locale/ne/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ne/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/ne/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/nl/
+drwxr-xr-x	root/root	usr/share/locale/nl/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/nl/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/nl/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/nl/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/nl/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/nn/
+drwxr-xr-x	root/root	usr/share/locale/nn/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/nn/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/nn/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/nn/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/nn/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/or/
+drwxr-xr-x	root/root	usr/share/locale/or/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/or/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/or/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/pa/
+drwxr-xr-x	root/root	usr/share/locale/pa/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/pa/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/pa/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/pa/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/pa/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/pl/
+drwxr-xr-x	root/root	usr/share/locale/pl/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/pl/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/pl/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/pl/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/pl/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/pt/
+drwxr-xr-x	root/root	usr/share/locale/pt/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/pt/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/pt/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/pt/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/pt/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/pt_BR/
+drwxr-xr-x	root/root	usr/share/locale/pt_BR/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/pt_BR/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/pt_BR/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/pt_BR/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/pt_BR/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/ro/
+drwxr-xr-x	root/root	usr/share/locale/ro/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ro/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/ro/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/ro/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/ro/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/ru/
+drwxr-xr-x	root/root	usr/share/locale/ru/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ru/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/ru/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/ru/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/ru/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/se/
+drwxr-xr-x	root/root	usr/share/locale/se/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/se/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/se/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/se/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/si/
+drwxr-xr-x	root/root	usr/share/locale/si/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/si/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/si/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/sk/
+drwxr-xr-x	root/root	usr/share/locale/sk/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/sk/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/sk/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/sk/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/sk/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/sl/
+drwxr-xr-x	root/root	usr/share/locale/sl/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/sl/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/sl/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/sl/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/sl/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/sq/
+drwxr-xr-x	root/root	usr/share/locale/sq/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/sq/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/sq/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/sr/
+drwxr-xr-x	root/root	usr/share/locale/sr/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/sr/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/sr/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/sr/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/sr/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/sr@ijekavian/
+drwxr-xr-x	root/root	usr/share/locale/sr@ijekavian/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/sr@ijekavian/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/sr@ijekavian/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/sr@ijekavian/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/sr@ijekavian/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/sr@ijekavianlatin/
+drwxr-xr-x	root/root	usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/sr@latin/
+drwxr-xr-x	root/root	usr/share/locale/sr@latin/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/sr@latin/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/sr@latin/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/sr@latin/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/sr@latin/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/sv/
+drwxr-xr-x	root/root	usr/share/locale/sv/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/sv/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/sv/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/sv/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/sv/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/ta/
+drwxr-xr-x	root/root	usr/share/locale/ta/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ta/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/ta/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/te/
+drwxr-xr-x	root/root	usr/share/locale/te/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/te/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/te/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/tg/
+drwxr-xr-x	root/root	usr/share/locale/tg/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/tg/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/tg/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/th/
+drwxr-xr-x	root/root	usr/share/locale/th/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/th/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/th/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/tr/
+drwxr-xr-x	root/root	usr/share/locale/tr/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/tr/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/tr/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/tr/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/tr/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/ug/
+drwxr-xr-x	root/root	usr/share/locale/ug/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/ug/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/ug/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/ug/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/uk/
+drwxr-xr-x	root/root	usr/share/locale/uk/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/uk/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/uk/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/uk/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/uk/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/vi/
+drwxr-xr-x	root/root	usr/share/locale/vi/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/vi/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/vi/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/wa/
+drwxr-xr-x	root/root	usr/share/locale/wa/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/wa/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/wa/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/zh_CN/
+drwxr-xr-x	root/root	usr/share/locale/zh_CN/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/zh_CN/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/zh_CN/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/zh_CN/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/zh_CN/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/locale/zh_TW/
+drwxr-xr-x	root/root	usr/share/locale/zh_TW/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/zh_TW/LC_MESSAGES/liboxygenstyleconfig.mo
+-rw-r--r--	root/root	usr/share/locale/zh_TW/LC_MESSAGES/oxygen_kdecoration.mo
+-rw-r--r--	root/root	usr/share/locale/zh_TW/LC_MESSAGES/oxygen_style_config.mo
+-rw-r--r--	root/root	usr/share/locale/zh_TW/LC_MESSAGES/oxygen_style_demo.mo
+drwxr-xr-x	root/root	usr/share/metainfo/
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.oxygen.appdata.xml
+drwxr-xr-x	root/root	usr/share/plasma/
+drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/
+drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.oxygen/
+drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.oxygen/contents/
+-rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.oxygen/contents/defaults
+drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.oxygen/contents/previews/
+-rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.oxygen/contents/previews/preview.png
+-rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.oxygen/contents/previews/splash.png
+drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.oxygen/contents/splash/
+-rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.oxygen/contents/splash/Splash.qml
+drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.oxygen/contents/splash/images/
+-rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.oxygen/contents/splash/images/background.png
+-rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.oxygen/contents/splash/images/kde.png
+-rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.oxygen/contents/splash/images/rectangle.png
+-rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.oxygen/metadata.json

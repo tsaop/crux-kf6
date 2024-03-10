@@ -1,0 +1,21 @@
+# Description: Adjust your monitor's gamma settings
+# URL: https://invent.kde.org/plasma/kgamma
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: brotli dbus double-conversion fontconfig freetype glib harfbuzz karchive kcmutils kcodecs kcolorscheme kconfig kconfigwidgets kcoreaddons kglobalaccel kguiaddons ki18n kiconthemes kitemviews kwidgetsaddons kxmlgui libb2 libglvnd libpng libxkbcommon qt6-base qt6-declarative qt6-svg qt6-wayland wayland xorg-libice xorg-libsm xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxxf86vm
+
+name=kgamma
+version=6.0.1
+release=1
+source=(https://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/{doc,locale}
+}

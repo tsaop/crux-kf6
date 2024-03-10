@@ -1,0 +1,21 @@
+# Description: C implementation of the Markdown markup language
+# URL: https://www.pell.portland.or.us/~orc/Code/discount/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:
+
+name=discount
+version=3.0.0a
+release=1
+source=(https://github.com/Orc/$name/archive/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure.sh --prefix=/usr \
+		--shared
+
+	sed -i -e '/\/sbin\/ldconfig/d' librarian.sh
+
+	make
+	make DESTDIR=$PKG install
+}

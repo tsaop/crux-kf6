@@ -1,0 +1,20 @@
+# Description: prison is a barcode api currently offering a nice Qt api to produce QRCode barcodes and DataMatrix barcodes, and can easily be made support more.
+# URL: https://invent.kde.org/frameworks/prison
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: extra-cmake-modules libdmtx qrencode qt6-multimedia zxing-cpp
+
+name=prison
+version=6.0.0
+release=1
+source=(https://download.kde.org/stable/frameworks/${version::3}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_TESTING=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}

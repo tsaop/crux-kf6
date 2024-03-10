@@ -1,0 +1,23 @@
+# Description: Additional components to increase the functionality of KIO
+# URL: https://invent.kde.org/network/kio-extras
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: qt6-svg qt6-5compat qcoro-qt6 karchive kconfig kconfigwidgets kcoreaddons kdbusaddons kdoctools kdnssd ki18n kio solid kguiaddons syntax-highlighting kcmutils ktextwidgets plasma-activities plasma-activities-stats phonon-qt6 samba libssh libkexiv2 openexr taglib kdsoap-ws-discovery-client libmtp
+
+name=kio-extras
+version=24.02.0
+source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
+release=1
+
+build() {
+        cd $name-$version
+        cmake -Bbuild \
+                -DCMAKE_INSTALL_PREFIX=/usr \
+                -DCMAKE_INSTALL_LIBDIR=lib \
+                -DCMAKE_INSTALL_LIBEXECDIR=lib \
+		-DQT_MAJOR_VERSION=6
+
+        cmake --build build
+        DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/{doc,locale}
+}

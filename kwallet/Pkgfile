@@ -1,0 +1,22 @@
+# Description: KWallet: Credential Storage
+# URL: https://invent.kde.org/frameworks/kwallet
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: kcolorscheme kcoreaddons kdbusaddons kdoctools knotifications kwidgetsaddons kwindowsystem qca-qt6
+
+name=kwallet
+version=6.0.0
+release=1
+source=(https://download.kde.org/stable/frameworks/${version::3}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_TESTING=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/locale
+}

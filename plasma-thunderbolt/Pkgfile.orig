@@ -1,0 +1,22 @@
+# Description: Plasma integration for controlling Thunderbolt devices
+# URL: https://invent.kde.org/plasma/plasma-thunderbolt
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: bolt brotli dbus double-conversion fontconfig freetype glib harfbuzz kcmutils kconfig kcoreaddons kdbusaddons ki18n kitemviews knotifications libb2 libcanberra libglvnd libogg libpng libvorbis libxkbcommon qt6-base qt6-declarative xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp
+
+name=plasma-thunderbolt
+version=6.0.1
+release=1
+source=(https://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_TESTING=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/locale
+}

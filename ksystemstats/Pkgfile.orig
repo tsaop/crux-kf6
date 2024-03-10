@@ -1,0 +1,23 @@
+# Description: A plugin based system monitoring daemon.
+# URL: https://invent.kde.org/plasma/ksystemstats
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: brotli dbus double-conversion fontconfig freetype glib harfbuzz kauth kconfig kcoreaddons kcrash ki18n kio kservice libb2 libglvnd libksysguard libnl libpng libxkbcommon lm_sensors networkmanager networkmanager-qt nspr nss qt6-base solid xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp
+
+name=ksystemstats
+version=6.0.1
+release=1
+source=(https://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_TESTING=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/lib/systemd \
+		$PKG/usr/share/locale
+}

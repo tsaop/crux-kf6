@@ -1,0 +1,24 @@
+# Description: Library for reading RAW files
+# URL: http://www.libraw.org/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: jasper lcms2
+
+name=libraw
+version=0.21.2
+release=1
+source=(http://www.libraw.org/data/LibRaw-$version.tar.gz)
+
+build() {
+	cd LibRaw-$version
+
+	autoreconf -vfi
+	./configure --prefix=/usr \
+		--sysconfdir=/etc \
+		--mandir=/usr/share/man \
+		--disable-examples \
+		--disable-static
+
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share
+}

@@ -1,0 +1,9 @@
+!!! breeze-grub !!! - NOT BUILT
+!!! breeze-plymouth !!! - NOT BUILT, NO PLYMOUTH
+!!! drkonqi !!! - NOT BUILT, REQUIRES SYSTEMD
+!!! kwayland-integration !!! - QT5 ONLY
+!!! plasma-mobile !!! - MOBILE STUFF
+!!! plasma-nano !!! - MOBILE STUFF
+!!! plymouth-kcm !!! - NOT NEEDED
+!!! sddm-kcm !!! - NEED TO INSTALL SDDM
+!!! wacomtablet !!! - NOT NEEDED

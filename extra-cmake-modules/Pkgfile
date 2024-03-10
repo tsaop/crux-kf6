@@ -1,0 +1,21 @@
+# Description: Extra modules and scripts for CMake.
+# URL: https://invent.kde.org/frameworks/extra-cmake-modules
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on:  cmake
+
+name=extra-cmake-modules
+version=6.0.0
+release=1
+source=(https://download.kde.org/stable/frameworks/${version::3}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_TESTING=OFF \
+		-DBUILD_EXAMPLES=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}

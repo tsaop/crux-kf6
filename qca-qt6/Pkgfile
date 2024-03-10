@@ -1,0 +1,21 @@
+# Description: QCA aims to provide a straightforward and cross-platform crypto API, using Qt.
+# URL: http://delta.affinix.com/qca/
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: qt6-base qt6-5compat nss botan libgcrypt cyrus-sasl 
+
+name=qca-qt6
+version=2.3.8
+release=1
+source=(http://download.kde.org/stable/${name/-qt6/}/$version/${name/-qt6/}-$version.tar.xz)
+
+build() {
+	cd ${name/-qt6/}-$version
+
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_WITH_QT6=ON
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}

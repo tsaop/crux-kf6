@@ -1,0 +1,23 @@
+# Description: Control Panel for your system firewall
+# URL: https://invent.kde.org/plasma/plasma-firewall
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: brotli dbus double-conversion fontconfig freetype glib harfbuzz karchive kauth kcmutils kcodecs kcolorscheme kconfig kconfigwidgets kcoreaddons kglobalaccel kguiaddons ki18n kiconthemes kitemviews kwidgetsaddons kxmlgui libb2 libglvnd libpng libxkbcommon qt6-base qt6-declarative qt6-svg qt6-wayland wayland xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp
+
+name=plasma-firewall
+version=6.0.1
+release=1
+source=(https://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_INSTALL_LIBEXECDIR=lib \
+		-DBUILD_TESTING=OFF
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/locale
+}
