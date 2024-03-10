@@ -1,7 +1,7 @@
 # Description: KIO
 # URL: https://invent.kde.org/frameworks/kio
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kauth kbookmarks kcompletion kded kiconthemes kitemviews kjobwidgets qt6-5compat solid
+# Depends on: kauth kbookmarks kcompletion kded kiconthemes kitemviews kjobwidgets qt6-5compat solid kwallet
 
 name=kio
 version=6.0.0
