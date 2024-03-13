@@ -46,11 +46,11 @@ drwxr-xr-x	root/root	usr/lib/cmake/KF6Screen/
 drwxr-xr-x	root/root	usr/lib/kf6/
 -rwxr-xr-x	root/root	usr/lib/kf6/kscreen_backend_launcher
 lrwxrwxrwx	root/root	usr/lib/libKF6Screen.so -> libKF6Screen.so.8
--rwxr-xr-x	root/root	usr/lib/libKF6Screen.so.6.0.0
-lrwxrwxrwx	root/root	usr/lib/libKF6Screen.so.8 -> libKF6Screen.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/libKF6Screen.so.6.0.2
+lrwxrwxrwx	root/root	usr/lib/libKF6Screen.so.8 -> libKF6Screen.so.6.0.2
 lrwxrwxrwx	root/root	usr/lib/libKF6ScreenDpms.so -> libKF6ScreenDpms.so.8
--rwxr-xr-x	root/root	usr/lib/libKF6ScreenDpms.so.6.0.0
-lrwxrwxrwx	root/root	usr/lib/libKF6ScreenDpms.so.8 -> libKF6ScreenDpms.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/libKF6ScreenDpms.so.6.0.2
+lrwxrwxrwx	root/root	usr/lib/libKF6ScreenDpms.so.8 -> libKF6ScreenDpms.so.6.0.2
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/KF6Screen.pc
 drwxr-xr-x	root/root	usr/lib/qt6/

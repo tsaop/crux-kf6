@@ -160,6 +160,7 @@ drwxr-xr-x	root/root	usr/include/kwin/utils/
 drwxr-xr-x	root/root	usr/include/kwin/wayland/
 -rw-r--r--	root/root	usr/include/kwin/wayland/appmenu.h
 -rw-r--r--	root/root	usr/include/kwin/wayland/blur.h
+-rw-r--r--	root/root	usr/include/kwin/wayland/clientconnection.h
 -rw-r--r--	root/root	usr/include/kwin/wayland/compositor.h
 -rw-r--r--	root/root	usr/include/kwin/wayland/contenttype_v1.h
 -rw-r--r--	root/root	usr/include/kwin/wayland/contrast.h
@@ -258,15 +259,16 @@ drwxr-xr-x	root/root	usr/lib/cmake/KWinDBusInterface/
 -rw-r--r--	root/root	usr/lib/cmake/KWinDBusInterface/KWinDBusInterfaceConfig.cmake
 drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/kwin-6.0-delete-desktop-switching-shortcuts
+-rwxr-xr-x	root/root	usr/lib/kconf_update_bin/kwin-6.0-remove-breeze-tabbox-default
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/kwin-6.0-reset-active-mouse-screen
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/kwin5_update_default_rules
 -rwxr-xr-x	root/root	usr/lib/kwin-applywindowdecoration
 -rwxr-xr-x	root/root	usr/lib/kwin_killer_helper
-lrwxrwxrwx	root/root	usr/lib/libkcmkwincommon.so.6 -> libkcmkwincommon.so.6.0.0
--rwxr-xr-x	root/root	usr/lib/libkcmkwincommon.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/libkcmkwincommon.so.6 -> libkcmkwincommon.so.6.0.2
+-rwxr-xr-x	root/root	usr/lib/libkcmkwincommon.so.6.0.2
 lrwxrwxrwx	root/root	usr/lib/libkwin.so -> libkwin.so.6
-lrwxrwxrwx	root/root	usr/lib/libkwin.so.6 -> libkwin.so.6.0.0
--rwxr-xr-x	root/root	usr/lib/libkwin.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/libkwin.so.6 -> libkwin.so.6.0.2
+-rwxr-xr-x	root/root	usr/lib/libkwin.so.6.0.2
 drwxr-xr-x	root/root	usr/lib/qt6/
 drwxr-xr-x	root/root	usr/lib/qt6/plugins/
 drwxr-xr-x	root/root	usr/lib/qt6/plugins/kf6/

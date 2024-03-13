@@ -1,10 +1,10 @@
 # Description: Crash handler for KDE software
 # URL: https://invent.kde.org/plasma/drkonqi
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: qt6-declarative ki18n kcoreaddons kconfig kservice kjobwidgets kio kcrash kwidgetsaddons kwallet knotifications kidletime kwindowsystem syntax-highlighting kstatusnotifieritem polkit-qt6
+# Depends on: kidletime kio kstatusnotifieritem syntax-highlighting
 
 name=drkonqi
-version=6.0.1
+version=6.0.2
 release=1
 source=(https://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
 

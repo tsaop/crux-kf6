@@ -4,7 +4,7 @@
 # Depends on: kcmutils kidletime kirigami-addons knewstuff kstatusnotifieritem kuserfeedback purpose qt6-webview
 
 name=discover
-version=6.0.1
+version=6.0.2
 release=1
 source=(https://download.kde.org/stable/plasma/$version/$name-$version.tar.xz)
 
