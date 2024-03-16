@@ -1,0 +1,139 @@
+diff --git a/src/plugins/screencast/pipewirecore.cpp b/src/plugins/screencast/pipewirecore.cpp
+index 077854c..eabf89a 100644
+--- a/src/plugins/screencast/pipewirecore.cpp
++++ b/src/plugins/screencast/pipewirecore.cpp
+@@ -94,6 +94,18 @@ bool PipeWireCore::init()
+     return true;
+ }
+ 
++std::shared_ptr<PipeWireCore> PipeWireCore::self()
++{
++    static std::weak_ptr<PipeWireCore> global;
++    auto ret = global.lock();
++    if (!ret) {
++        ret = std::make_shared<PipeWireCore>();
++        ret->init();
++        global = ret;
++    }
++    return ret;
++}
++
+ } // namespace KWin
+ 
+ #include "moc_pipewirecore.cpp"
+diff --git a/src/plugins/screencast/screencastmanager.cpp b/src/plugins/screencast/screencastmanager.cpp
+index a688afb..ff0081a 100644
+--- a/src/plugins/screencast/screencastmanager.cpp
++++ b/src/plugins/screencast/screencastmanager.cpp
+@@ -12,7 +12,6 @@
+ #include "core/outputbackend.h"
+ #include "opengl/gltexture.h"
+ #include "outputscreencastsource.h"
+-#include "pipewirecore.h"
+ #include "regionscreencastsource.h"
+ #include "scene/workspacescene.h"
+ #include "screencaststream.h"
+@@ -30,9 +29,7 @@ namespace KWin
+ 
+ ScreencastManager::ScreencastManager()
+     : m_screencast(new ScreencastV1Interface(waylandServer()->display(), this))
+-    , m_core(new PipeWireCore)
+ {
+-    m_core->init();
+     connect(m_screencast, &ScreencastV1Interface::windowScreencastRequested, this, &ScreencastManager::streamWindow);
+     connect(m_screencast, &ScreencastV1Interface::outputScreencastRequested, this, &ScreencastManager::streamWaylandOutput);
+     connect(m_screencast, &ScreencastV1Interface::virtualOutputScreencastRequested, this, &ScreencastManager::streamVirtualOutput);
+@@ -59,8 +56,8 @@ static QRegion scaleRegion(const QRegion &_region, qreal scale)
+ class WindowStream : public ScreenCastStream
+ {
+ public:
+-    WindowStream(Window *window, std::shared_ptr<PipeWireCore> pwCore, QObject *parent)
+-        : ScreenCastStream(new WindowScreenCastSource(window), pwCore, parent)
++    WindowStream(Window *window, QObject *parent)
++        : ScreenCastStream(new WindowScreenCastSource(window), parent)
+         , m_window(window)
+     {
+         m_timer.setInterval(0);
+@@ -108,7 +105,7 @@ void ScreencastManager::streamWindow(ScreencastStreamV1Interface *waylandStream,
+         return;
+     }
+ 
+-    auto stream = new WindowStream(window, m_core, this);
++    auto stream = new WindowStream(window, this);
+     stream->setCursorMode(mode, 1, window->clientGeometry());
+     if (mode != ScreencastV1Interface::CursorMode::Hidden) {
+         connect(window, &Window::clientGeometryChanged, stream, [window, stream, mode]() {
+@@ -148,7 +145,7 @@ void ScreencastManager::streamOutput(ScreencastStreamV1Interface *waylandStream,
+         return;
+     }
+ 
+-    auto stream = new ScreenCastStream(new OutputScreenCastSource(streamOutput), m_core, this);
++    auto stream = new ScreenCastStream(new OutputScreenCastSource(streamOutput), this);
+     stream->setObjectName(streamOutput->name());
+     stream->setCursorMode(mode, streamOutput->scale(), streamOutput->geometry());
+     auto bufferToStream = [stream, streamOutput](const QRegion &damagedRegion) {
+@@ -176,7 +173,7 @@ void ScreencastManager::streamRegion(ScreencastStreamV1Interface *waylandStream,
+     }
+ 
+     auto source = new RegionScreenCastSource(geometry, scale);
+-    auto stream = new ScreenCastStream(source, m_core, this);
++    auto stream = new ScreenCastStream(source, this);
+     stream->setObjectName(rectToString(geometry));
+     stream->setCursorMode(mode, scale, geometry);
+ 
+diff --git a/src/plugins/screencast/screencastmanager.h b/src/plugins/screencast/screencastmanager.h
+index 059e64b..c4829c0 100644
+--- a/src/plugins/screencast/screencastmanager.h
++++ b/src/plugins/screencast/screencastmanager.h
+@@ -16,7 +16,6 @@ namespace KWin
+ {
+ class Output;
+ class ScreenCastStream;
+-class PipeWireCore;
+ 
+ class ScreencastManager : public Plugin
+ {
+@@ -47,7 +46,6 @@ private:
+     void integrateStreams(ScreencastStreamV1Interface *waylandStream, ScreenCastStream *stream);
+ 
+     ScreencastV1Interface *m_screencast;
+-    std::shared_ptr<PipeWireCore> m_core;
+ };
+ 
+ } // namespace KWin
+diff --git a/src/plugins/screencast/screencaststream.cpp b/src/plugins/screencast/screencaststream.cpp
+index 5976e0c..9387c5d 100644
+--- a/src/plugins/screencast/screencaststream.cpp
++++ b/src/plugins/screencast/screencaststream.cpp
+@@ -307,9 +307,8 @@ void ScreenCastStream::onStreamRenegotiateFormat(uint64_t)
+     pw_stream_update_params(m_pwStream, params.data(), params.count());
+ }
+ 
+-ScreenCastStream::ScreenCastStream(ScreenCastSource *source, std::shared_ptr<PipeWireCore> pwCore, QObject *parent)
++ScreenCastStream::ScreenCastStream(ScreenCastSource *source, QObject *parent)
+     : QObject(parent)
+-    , m_pwCore(pwCore)
+     , m_source(source)
+     , m_resolution(source->textureSize())
+ {
+@@ -352,6 +351,7 @@ ScreenCastStream::~ScreenCastStream()
+ 
+ bool ScreenCastStream::init()
+ {
++    m_pwCore = PipeWireCore::self();
+     if (!m_pwCore->m_error.isEmpty()) {
+         m_error = m_pwCore->m_error;
+         return false;
+diff --git a/src/plugins/screencast/screencaststream.h b/src/plugins/screencast/screencaststream.h
+index 74b6b46..2aa15c0 100644
+--- a/src/plugins/screencast/screencaststream.h
++++ b/src/plugins/screencast/screencaststream.h
+@@ -50,7 +50,7 @@ class KWIN_EXPORT ScreenCastStream : public QObject
+ {
+     Q_OBJECT
+ public:
+-    explicit ScreenCastStream(ScreenCastSource *source, std::shared_ptr<PipeWireCore> pwCore, QObject *parent);
++    explicit ScreenCastStream(ScreenCastSource *source, QObject *parent);
+     ~ScreenCastStream();
+ 
+     bool init();
