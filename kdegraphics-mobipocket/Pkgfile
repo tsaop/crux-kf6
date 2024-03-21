@@ -1,10 +1,10 @@
 # Description: A collection of plugins to handle mobipocket files
 # URL: https://invent.kde.org/graphics/kdegraphics-mobipocket
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: extra-cmake-modules qt6-5compat 
+# Depends on: extra-cmake-modules qt6-5compat
 
 name=kdegraphics-mobipocket
-version=24.02.0
+version=24.02.1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 release=1
 

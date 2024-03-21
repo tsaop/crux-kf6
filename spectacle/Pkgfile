@@ -4,7 +4,7 @@
 # Depends on: kpipewire kxmlgui layer-shell-qt purpose qt6-multimedia
 
 name=spectacle
-version=24.02.0
+version=24.02.1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 release=1
 

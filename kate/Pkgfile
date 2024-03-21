@@ -1,10 +1,10 @@
 # Description: Modern text editor built on the KDE Frameworks and Qt
 # URL: https://invent.kde.org/utilities/kate
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: knewstuff ktexteditor kuserfeedback kwallet
+# Depends on: knewstuff ktexteditor kuserfeedback
 
 name=kate
-version=24.02.0
+version=24.02.1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 release=1
 

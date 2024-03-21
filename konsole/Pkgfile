@@ -4,7 +4,7 @@
 # Depends on: icu knewstuff knotifyconfig kparts kpty ktextwidgets
 
 name=konsole
-version=24.02.0
+version=24.02.1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 release=1
 

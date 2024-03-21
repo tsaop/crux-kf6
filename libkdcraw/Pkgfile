@@ -1,10 +1,10 @@
 # Description: C++ interface around LibRaw library used to decode RAW picture files
 # URL: https://invent.kde.org/graphics/libkdcraw
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: extra-cmake-modules qt6-base libraw
+# Depends on: extra-cmake-modules libraw qt6-base
 
 name=libkdcraw
-version=24.02.0
+version=24.02.1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 release=1
 

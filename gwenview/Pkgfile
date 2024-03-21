@@ -4,7 +4,7 @@
 # Depends on: baloo cfitsio kimageannotator-qt6 kitemmodels kparts libkdcraw phonon-qt6 plasma-activities purpose
 
 name=gwenview
-version=24.02.0
+version=24.02.1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 release=1
 

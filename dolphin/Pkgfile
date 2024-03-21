@@ -1,10 +1,10 @@
 # Description: File manager by KDE
 # URL: https://invent.kde.org/system/dolphin
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kcmutils knewstuff kcoreaddons ki18n kdbusaddons kbookmarks kconfig kio kparts solid kiconthemes kcompletion ktextwidgets knotifications kcrash kwindowsystem kwidgetsaddons kcodecs kuserfeedback kdoctools plasma-activities phonon-qt6 baloo baloo-widgets kfilemetadata
+# Depends on: baloo-widgets kcmutils knewstuff kparts ktextwidgets kuserfeedback phonon-qt6 plasma-activities
 
 name=dolphin
-version=24.02.0
+version=24.02.1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 release=1
 

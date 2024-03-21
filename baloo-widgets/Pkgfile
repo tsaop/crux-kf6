@@ -1,10 +1,10 @@
 # Description: Widgets for Baloo
 # URL: https://invent.kde.org/libraries/baloo-widgets
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: kconfig kio ki18n kfilemetadata baloo kservice
+# Depends on: baloo
 
 name=baloo-widgets
-version=24.02.0
+version=24.02.1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 release=1
 

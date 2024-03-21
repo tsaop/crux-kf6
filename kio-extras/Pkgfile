@@ -1,10 +1,10 @@
 # Description: Additional components to increase the functionality of KIO
 # URL: https://invent.kde.org/network/kio-extras
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: qt6-svg qt6-5compat qcoro-qt6 karchive kconfig kconfigwidgets kcoreaddons kdbusaddons kdoctools kdnssd ki18n kio solid kguiaddons syntax-highlighting kcmutils ktextwidgets plasma-activities plasma-activities-stats phonon-qt6 samba libssh libkexiv2 openexr taglib kdsoap-ws-discovery-client libmtp
+# Depends on: kcmutils kdnssd kdsoap-ws-discovery-client ktextwidgets libkexiv2 libmtp libssh openexr phonon-qt6 plasma-activities-stats qcoro-qt6 samba syntax-highlighting taglib
 
 name=kio-extras
-version=24.02.0
+version=24.02.1
 source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
 release=1
 
