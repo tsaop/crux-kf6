@@ -4,7 +4,7 @@
 # Depends on:  breeze gtk python3-cairo sassc
 
 name=breeze-gtk
-version=6.0.2
+version=6.0.3
 release=1
 source=(https://download.kde.org/stable/plasma/${version%.1}/$name-$version.tar.xz)
 

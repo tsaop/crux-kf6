@@ -264,11 +264,11 @@ drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/kwin5_update_default_rules
 -rwxr-xr-x	root/root	usr/lib/kwin-applywindowdecoration
 -rwxr-xr-x	root/root	usr/lib/kwin_killer_helper
-lrwxrwxrwx	root/root	usr/lib/libkcmkwincommon.so.6 -> libkcmkwincommon.so.6.0.2
--rwxr-xr-x	root/root	usr/lib/libkcmkwincommon.so.6.0.2
+lrwxrwxrwx	root/root	usr/lib/libkcmkwincommon.so.6 -> libkcmkwincommon.so.6.0.3
+-rwxr-xr-x	root/root	usr/lib/libkcmkwincommon.so.6.0.3
 lrwxrwxrwx	root/root	usr/lib/libkwin.so -> libkwin.so.6
-lrwxrwxrwx	root/root	usr/lib/libkwin.so.6 -> libkwin.so.6.0.2
--rwxr-xr-x	root/root	usr/lib/libkwin.so.6.0.2
+lrwxrwxrwx	root/root	usr/lib/libkwin.so.6 -> libkwin.so.6.0.3
+-rwxr-xr-x	root/root	usr/lib/libkwin.so.6.0.3
 drwxr-xr-x	root/root	usr/lib/qt6/
 drwxr-xr-x	root/root	usr/lib/qt6/plugins/
 drwxr-xr-x	root/root	usr/lib/qt6/plugins/kf6/

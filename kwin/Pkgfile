@@ -1,11 +1,11 @@
 # Description: Easy to use, but flexible, X Window Manager and Wayland Compositor
 # URL: https://invent.kde.org/plasma/kwin
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: breeze kdeclarative kglobalacceld kscreenlocker kwayland lcms2 libdisplay-info qt6-multimedia qt6-sensors xorg-xwayland
+# Depends on: breeze kdeclarative kglobalacceld kscreenlocker kwayland lcms2 libdisplay-info qt6-multimedia qt6-sensors xorg-xwayland libinput
 
 name=kwin
-version=6.0.2
-release=2
+version=6.0.3
+release=1
 source=(https://download.kde.org/stable/plasma/$version/$name-$version.tar.xz
 	fix-screensharing.patch)
 
