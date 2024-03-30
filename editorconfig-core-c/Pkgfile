@@ -4,7 +4,7 @@
 # Depends on: cmake libpcre2
 
 name=editorconfig-core-c
-version=0.12.5
+version=0.12.7
 release=1
 source=(https://github.com/editorconfig/$name/archive/v${version}/$name-$version.tar.gz)
 

@@ -1,7 +1,7 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
-lrwxrwxrwx	root/root	usr/bin/editorconfig -> editorconfig-0.12.5
--rwxr-xr-x	root/root	usr/bin/editorconfig-0.12.5
+lrwxrwxrwx	root/root	usr/bin/editorconfig -> editorconfig-0.12.7
+-rwxr-xr-x	root/root	usr/bin/editorconfig-0.12.7
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/editorconfig/
 -rw-r--r--	root/root	usr/include/editorconfig/editorconfig.h
@@ -14,8 +14,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/EditorConfig/
 -rw-r--r--	root/root	usr/lib/cmake/EditorConfig/EditorConfigTargets-noconfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/EditorConfig/EditorConfigTargets.cmake
 lrwxrwxrwx	root/root	usr/lib/libeditorconfig.so -> libeditorconfig.so.0
-lrwxrwxrwx	root/root	usr/lib/libeditorconfig.so.0 -> libeditorconfig.so.0.12.5
--rwxr-xr-x	root/root	usr/lib/libeditorconfig.so.0.12.5
+lrwxrwxrwx	root/root	usr/lib/libeditorconfig.so.0 -> libeditorconfig.so.0.12.7
+-rwxr-xr-x	root/root	usr/lib/libeditorconfig.so.0.12.7
 -rw-r--r--	root/root	usr/lib/libeditorconfig_static.a
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/editorconfig.pc
