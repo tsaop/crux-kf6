@@ -1,0 +1,20 @@
+# Description: Library for converting characters to X key-presses
+# URL: https://www.yoctoproject.org/tools-resources/projects/matchbox
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: xorg-libxtst
+
+name=libfakekey
+version=0.3
+release=1
+source=(https://git.yoctoproject.org/$name/snapshot/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./autogen.sh
+	./configure --prefix=/usr \
+		--disable-static
+
+	make
+	make DESTDIR=$PKG install
+}
