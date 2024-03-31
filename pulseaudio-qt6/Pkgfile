@@ -1,0 +1,21 @@
+# Description: Qt bindings for libpulse
+# URL: https://invent.kde.org/libraries/pulseaudio-qt
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: extra-cmake-modules pulseaudio qt6-declarative
+
+name=pulseaudio-qt6
+version=1.4.0
+release=1
+source=(https://download.kde.org/stable/${name/6/}/${name/6/}-$version.tar.xz)
+
+build() {
+	cd ${name/6/}-$version
+	cmake -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_TESTING=OFF \
+		-DQT_MAJOR_VERSION=6
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}
