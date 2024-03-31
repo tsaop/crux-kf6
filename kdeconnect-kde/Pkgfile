@@ -1,0 +1,22 @@
+# Description: Multi-platform app that allows your devices to communicate
+# URL: https://invent.kde.org/network/kdeconnect-kde
+# Maintainer: Tsaop, leeroy at cock dot li
+# Depends on: kcmutils kirigami-addons kpackage kpeople kstatusnotifieritem libfakekey modemmanager-qt pulseaudio-qt6 qqc2-desktop-style qt6-multimedia
+
+name=kdeconnect-kde
+version=24.02.1
+source=(http://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
+release=1
+
+build() {
+        cd $name-$version
+        cmake -Bbuild \
+                -DCMAKE_INSTALL_PREFIX=/usr \
+                -DCMAKE_INSTALL_LIBDIR=lib \
+                -DCMAKE_INSTALL_LIBEXECDIR=lib
+
+        cmake --build build
+        DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/share/{locale,doc}
+}
