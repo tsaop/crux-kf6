@@ -1,7 +1,7 @@
 # Description: Library and components for secure lock screen architecture
 # URL: https://invent.kde.org/plasma/kscreenlocker
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: elogind kidletime layer-shell-qt libkscreen libplasma
+# Depends on: kidletime layer-shell-qt libkscreen libplasma
 
 name=kscreenlocker
 version=6.0.3
