@@ -1,7 +1,7 @@
 # Description: QCA aims to provide a straightforward and cross-platform crypto API, using Qt.
 # URL: http://delta.affinix.com/qca/
 # Maintainer: Tsaop, leeroy at cock dot li
-# Depends on: qt6-base qt6-5compat nss botan libgcrypt cyrus-sasl 
+# Depends on: botan cyrus-sasl libgcrypt nss qt6-5compat
 
 name=qca-qt6
 version=2.3.8
