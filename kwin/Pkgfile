@@ -5,7 +5,7 @@
 
 name=kwin
 version=6.0.3.1
-release=1
+release=2
 source=(https://download.kde.org/stable/plasma/${version/.1/}/$name-$version.tar.xz
 	fix-screensharing.patch)
 
@@ -13,7 +13,7 @@ build() {
 	cd $name-$version
 
 	# https://bugs.kde.org/show_bug.cgi?id=483137
-	# patch -Np1 -i $SRC/fix-screensharing.patch
+	patch -Np1 -i $SRC/fix-screensharing.patch
 
 	cmake -Bbuild \
 		-DCMAKE_INSTALL_PREFIX=/usr \
